@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSUM Portal - Login</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.js">
+</head>
+<body>
+    <div class="cont">
+        <header>
+            <img src="./logo.png" alt="">
+            <h1>Benue State University Portal</h1>
+        </header>
+        <main>
+            <div class="login-section">
+                <h2 style="font-size: 250%;">Login</h2>
+                <p>Sign in to your account</p>
+                <form>
+                    <div class="input-group">
+                        <input type="text" placeholder="Username" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="login-btn">Login</button>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </form>
+                <button class="pay-btn">Pay Online?</button>
+            </div>
+            <div class="details-section">
+                <h2 style="padding-top: 10px; font-size: 250%;">Login Details</h2>
+                <p>Your login username is any of the following:</p>
+
+                <ul>
+                    <li><strong>For Applicants:</strong> Application number</li>
+                    <li><strong>For Students and Alumni:</strong> Application number, UTME registration number, Matriculation number, university email</li>
+                    <li><strong>For Staff:</strong> Staff number or university email</li>
+                </ul>
+                <p class="Text">The University will not take responsibility in any breach of the above and require you to keep your login details confidential.</p>
+                <button class="eula-btn">View EULA</button>
+            </div>
+        </main>
+       
+        <button class="display-5 text-primary fw-bold" id="myButton">Know More!</button>
+
+  
+  <p id="message">Benue State University (BSU) is a public institution located in Makurdi, the capital of Benue State, Nigeria. Established in 1992, BSU has grown significantly, offering a diverse range of undergraduate and postgraduate programs across multiple disciplines.​
+    uniRank
+    <br>
+    Academic Structure: The university comprises several faculties and colleges, including:​
+    <br>
+    Faculty of Arts​
+    <br>
+    Faculty of Education​
+    <br>
+    
+    Faculty of Science​
+    <br>
+    
+    Faculty of Social Sciences​
+    <br>
+    Benue State University Makurdi
+    <br>
+    
+    Faculty of Law​
+    <br>
+   
+    
+    Faculty of Management Sciences​
+    <br>
+   
+    
+    Faculty of Health Sciences​
+    <br>
+    
+    Faculty of Environmental Sciences​
+    <br>
+   
+    Benue State University Makurdi
+    <br>
+    
+    
+    Student Enrollment: As of 2006, BSU enrolled over 19,000 students, with numbers likely higher today. ​
+    <br>
+    
+    Leadership: The current Vice-Chancellor is Professor Tor Iorapuu, who assumed the position in November 2020. ​
+    <br>
+    
+    Facilities: BSU offers various facilities, including:​
+    <br>
+    University Library and Information Services (ULIS)​
+    <br>
+    
+    Sports facilities​
+    <br>
+    
+    Radio Station (BSU FM 89.9MHz)​
+    <br>
+    </p>
+
+    <script>
+       
+        document.getElementById("myButton").addEventListener('click', function() {
+         
+          var message = document.getElementById("message");
+          
+          
+          if (message.style.display === 'none' || message.style.display === '') {
+            message.style.display = 'block'; 
+          } else {
+            message.style.display = 'none';  
+          }
+        });
+      </script>
+
+    <br>
+    <br>
+
+
+    <footer>
+        <h1>About Programmer</h1>
+        <p>David Chinaza A Web Developer and Designer, Graphic Designer,<br> A creative and Productive Programmer Uses Html, Css and Javascript to Design and create a Website</p>
+        <h2>Contact Us</h2>
+        <p>Email: smart.gajup07@gmail.com, dr.chinzzy@yahoo.com</p>
+        <p>Phone: +234 706 1055 818</p>
+        <div class="social-icons">
+            <!-- Facebook Icon -->
+            <a href="https://web.facebook.com/profile.php?id=61571746187559" target="_blank" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <!-- WhatsApp Icon -->
+            <a href="https://wa.link/bs14ad" target="_blank" class="social-icon">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <!-- TikTok Icon -->
+            <a href="https://www.tiktok.com/@drchinzzy?_t=ZM-8vExzfmk7zb&_r=1" target="_blank" class="social-icon">
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <!-- Twitter Icon -->
+            <a href="https://x.com/chinzzy77" target="_blank" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <br>
+        <p>@2025 Chinzzy. All Rights Reserved</p>
+    </footer>
+
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cfe2f3;
+}
+
+.cont {
+    max-width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    
+    align-items: center;
+    font-size: 12px;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    display: flex;
+}
+
+header img {
+    height: 50px;
+}
+#conn{
+    align-content: center;
+    padding: 0;
+
+    
+}
+
+.Text{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+
+.login-section, .details-section {
+    width: 40%;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+.login-section {
+    background: #2e2e38;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+}
+
+.details-section {
+    background: #8878d1;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-group {
+    margin: 15px 0;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-btn {
+    background-color: #6a5acd;
+    color: white;
+}
+
+.pay-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.eula-btn {
+    background-color: #fff;
+    color: #6a5acd;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: lightgray;
+    text-decoration: none;
+}
+
+
+
+.details-section ul {
+  
+    padding: 0;
+}
+
+.details-section li {
+    margin-bottom: 15px; 
+}
+
+
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .login-section, .details-section {
+        width: 90%;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2e2e38;
+    color: whitesmoke;
+  }
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+    margin-top: 50px;
+    align-content: center;
+  }
+
+  .social-icon i {
+    font-size: 40px;
+    color: whitesmoke; /* Default color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .social-icon i:hover {
+    color: #007bff;
+  }
+  
+#message {
+    display: none;
+    font-size: 20px;
+    color: black;
+    padding: 25px;
+    
+   
+    text-align: justify;
+  }
+  
+
+ 
